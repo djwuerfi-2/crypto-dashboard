@@ -2,6 +2,10 @@
 
 Crypto Horizon is a local-first Streamlit dashboard for visualizing security and crypto holding periods. It reconstructs purchases and sales with FIFO, highlights the German one-year crypto horizon, and makes data gaps visible instead of silently guessing.
 
+# Important Note
+Unfortunately the project doesn't work as planned. The .csv file from Trade Repulic is missing a column that indicates the quantity of the bought or sold stock/crypto currency, which complicates the visualization and analysis of the portfolio. 
+Furthermore, the presented time horizon in the .csv file is limited to the start of 2026 which limits the capabillity to analyze the portfolio. Maybe in the future or wiht a personal prepared .csv file it could be an idea to keep working on it, but for right now the project is paused. 
+
 ## What it does
 
 - Uploads Trade Republic-style tax CSVs and common transaction CSV variants.
